@@ -24,10 +24,24 @@ export default class Cart {
     }, 0);
   }
 
-  checkout() {
+  sumary() {
+    const total = this.getTotal();
+    const items = this.items;
+
     return {
-      total: this.getTotal(),
-      items: this.items,
+      total,
+      items,
+    };
+  }
+
+  checkout() {
+    const { total, items } = this.sumary();
+
+    this.items = [];
+
+    return {
+      total,
+      items,
     };
   }
 }
