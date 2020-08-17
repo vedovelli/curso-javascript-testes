@@ -15,7 +15,8 @@
     "@babel/preset-env": "^7.11.0",
     "@types/jest": "^26.0.8",
     "babel-jest": "^26.2.2",
-    "jest": "^26.2.2"
+    "jest": "^26.2.2",
+    "prettier": "^2.0.5"
   },
   "dependencies": {
     "lodash": "^4.17.20"
