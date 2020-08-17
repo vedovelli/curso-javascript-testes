@@ -19,6 +19,7 @@
     "prettier": "^2.0.5"
   },
   "dependencies": {
+    "dinero.js": "^1.8.1",
     "lodash": "^4.17.20"
   }
 }
