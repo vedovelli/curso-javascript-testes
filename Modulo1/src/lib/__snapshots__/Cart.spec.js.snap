@@ -22,7 +22,7 @@ Object {
 }
 `;
 
-exports[`Cart checkout() should return an object with the total and the list of items when sumary() is called  1`] = `
+exports[`Cart checkout() should return an object with the total and the list of items when summary() is called  1`] = `
 Object {
   "formatted": "R$3,025.56",
   "items": Array [

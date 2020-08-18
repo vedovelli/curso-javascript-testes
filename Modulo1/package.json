@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watchAll"
+    "test:watch": "jest --watchAll",
+    "test:debug": "ndb jest"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
     "@types/jest": "^26.0.8",
     "babel-jest": "^26.2.2",
     "jest": "^26.2.2",
+    "ndb": "^1.1.5",
     "prettier": "^2.0.5"
   },
   "dependencies": {

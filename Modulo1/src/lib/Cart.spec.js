@@ -79,7 +79,7 @@ describe('Cart', () => {
       expect(cart.checkout()).toMatchSnapshot();
     });
 
-    it('should return an object with the total and the list of items when sumary() is called ', () => {
+    it('should return an object with the total and the list of items when summary() is called ', () => {
       cart.add({
         product,
         quantity: 5,
@@ -90,7 +90,7 @@ describe('Cart', () => {
         quantity: 3,
       });
 
-      expect(cart.sumary()).toMatchSnapshot();
+      expect(cart.summary()).toMatchSnapshot();
       expect(cart.getTotal().getAmount()).toBeGreaterThan(0);
     });
 
@@ -105,7 +105,7 @@ describe('Cart', () => {
         quantity: 3,
       });
 
-      expect(cart.sumary().formatted).toEqual('R$3,025.56');
+      expect(cart.summary().formatted).toEqual('R$3,025.56');
     });
 
     it('should reset the cart when checkout() is called', () => {
