@@ -24,6 +24,7 @@ Object {
 
 exports[`Cart checkout() should return an object with the total and the list of items when sumary() is called  1`] = `
 Object {
+  "formatted": "R$3,025.56",
   "items": Array [
     Object {
       "product": Object {
@@ -40,6 +41,10 @@ Object {
       "quantity": 3,
     },
   ],
-  "total": 302556,
+  "total": Object {
+    "amount": 302556,
+    "currency": "BRL",
+    "precision": 2,
+  },
 }
 `;
