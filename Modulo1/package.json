@@ -1,0 +1,27 @@
+{
+  "name": "Projeto1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test:debug": "ndb jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "@types/jest": "^26.0.8",
+    "babel-jest": "^26.2.2",
+    "jest": "^26.2.2",
+    "ndb": "^1.1.5",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "dinero.js": "^1.8.1",
+    "lodash": "^4.17.20"
+  }
+}
