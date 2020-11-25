@@ -12,10 +12,10 @@ export default class Cart {
   items = [];
 
   add(item) {
-    const itemToFind = { product: item.product };
+    const { product } = item;
 
-    if (find(this.items, itemToFind)) {
-      remove(this.items, itemToFind);
+    if (find(this.items, { product })) {
+      remove(this.items, { product });
     }
 
     this.items.push(item);
